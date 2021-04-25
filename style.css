@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 500px;
+    margin: 80px auto;
+}
+
+.container .header {
+    width: 300px;
+    margin: auto;
+}
+
+.container .header h2 {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.container .content {
+    display: flex;
+}
+.container .content .main {
+    border: 1px solid /*rgb(104, 191, 245)*/ #333;
+    border-top-left-radius: 5px;
+    margin: auto;
+    flex: 11;
+    font-weight: bold;
+}
+.container .content .main .input-fields {
+    padding: 31px;
+}
+.container .content .main input {
+    width: 100px;
+    padding: 6px;
+    margin-bottom: 8px;;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+.container .content .main .result {
+    text-align: center;
+    border-top: 1px solid black;
+}
+.container .content .main .result h4 {
+    font-size: 30px;
+}
+.container .content .side {
+    flex: 1;
+}
+
+.container .side .btn {
+    padding: 2px 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: /*rgb(104, 191, 245) #33FFBD #33B0FF*/ #333;
+}
+.container .side .btn:hover {
+    background-color: #555;
+}
+.container .side .btn1 {padding: 8px 30px;}
+.container .side .btn2 {padding: 8px 34px;}
+.container .side .btn3 {padding: 10px 35px;}
+.container .side .btn4 {padding: 10px 33.5px;}
+
+.container .reset {
+    width: 498px;
+    margin: auto;
+}
+
+.container .reset .btn5 {
+    padding: 20px 214px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: /*rgb(104, 191, 245) #33FFBD #33B0FF*/ #333;
+}
+
+.container .reset .btn5:hover {
+    background-color: #555;
+}
